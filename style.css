@@ -4,6 +4,7 @@
 body{
     font-family: sans-serif;
     background-color: #e8eef3;
+    height: 100%;
 }
 *{
     box-sizing: border-box;
@@ -124,9 +125,18 @@ header .nav ul li a:hover{
         margin: 0;
         text-align: center;
     }
+    header .nav ul li a {
+        color: #000000;
+        font-weight: bold;
+        background-color: #d7cfee85;
+    }
 }
 section{
-    background: url(images.jpeg) no-repeat;
-    background-size: cover;
     height: calc(100vh - 80px);
+    background: url("menu.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 1;
 }
